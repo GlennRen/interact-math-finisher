@@ -1,11 +1,11 @@
-var correct       = 10;
-var incorrect     = 10;
+var correct       = document.getElementById('correct').value;
+var incorrect     = document.getElementById('incorrect').value;
 var attempted     = correct+incorrect;
 var numOfProblems = document.getElementById("exContainer").getElementsByTagName("li").length-5;
-var hour          = "00";
-var minute        = "11";
-var second        = "22";
-var time          = hour +":"+ minute +":"+ second;
+var hour          = document.getElementById('hour').value;
+var minute        = document.getElementById('minute').value;
+var second        = document.getElementById('second').value;
+var time          = hour +":"+ minutes +":"+ seconds;
 var count         = 0;
 var change;
 

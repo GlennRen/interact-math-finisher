@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+
+	"name": "InterAct Math Finisher",
+	"description": "This extension finishes a set of InterAct Math problems for you and gives you the option to save a screenshot",
+	"version": "0.1",
+
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_title": "InterAct Math Finisher"
+	},
+	"content_scripts": [{
+		"matches": ["*://interactmath.com/*"],
+		"js": ["scripts.js"]
+	}]
+}
