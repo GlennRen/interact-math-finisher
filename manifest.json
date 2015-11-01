@@ -1,6 +1,6 @@
 {
   "name": "InterAct Math Finisher",
-  "version": "0.1",
+  "version": "0.2",
   "manifest_version": 2,
   "description": "This extension finishes a set of InterAct Math problems for you",
   "background": {

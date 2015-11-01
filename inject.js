@@ -26,7 +26,7 @@
 	}
 
 	var hours = doubleDigits((Math.floor(totalTime/3600)).toString());
-	var minutes =  doubleDigits((Math.floor(totalTime/60))-(hours*60).toString());
+	var minutes =  doubleDigits(((Math.floor(totalTime/60))-(hours*60)).toString());
 	var seconds = doubleDigits((totalTime - hours*3600 - minutes*60).toString());
 
 	document.getElementsByClassName("exSummary")[0].getElementsByTagName("div")[0].innerHTML = '<b>Attempted: </b>' + numOfProblems;
